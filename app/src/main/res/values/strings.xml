@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">TaskPlanner</string>
+    <string name="done">Done</string>
+    <string name="current_tasks">Current Tasks</string>
+    <string name="to_do">To Do</string>
+    <string name="work_in_progress">Work in Progress</string>
+    <string name="_5">5</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="my_projects">My Projects</string>
+    <string name="plus">+</string>
+    <string name="log_in">Log In</string>
+    <string name="don_t_have_an_account">don\'t have an account?</string>
+    <string name="sign_in">sign in</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
