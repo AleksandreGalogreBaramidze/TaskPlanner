@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_color">#004481</color>
     <color name="sing_in_color">#087AE1</color>
-    <color name="statusTextColors">#004481</color>
-    <color name="homebackgroundcolor">#E5F0F6</color>
+    <color name="main_color">#004481</color>
+    <color name="home_background_color">#E5F0F6</color>
+    <color name="buttons_color">#4CABCE</color>
 </resources>

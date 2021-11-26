@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="55dp"
             android:text="@string/welcome"
-            android:textColor="@color/statusTextColors"
+            android:textColor="@color/main_color"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@color/statusTextColors"
+                android:textColor="@color/main_color"
                 android:textSize="15sp"
                 tools:text="Sandro Galogre" />
 
@@ -85,19 +85,19 @@
             app:layout_constraintTop_toBottomOf="@+id/enterNameTextInputLayout">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etEmail"
+                android:id="@+id/enterEmailEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@color/statusTextColors"
+                android:textColor="@color/main_color"
                 android:textSize="15sp"
                 tools:text="Aleksandre.galogrebaramidze@space.ge" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout2"
+            android:id="@+id/enterPasswordTExtInputLayout"
             style="@style/TextInputLayoutTheme"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -109,7 +109,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/enterEmailTextInputLayout"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/statusTextColors">
+            app:passwordToggleTint="@color/main_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/passwordEditText"
@@ -118,7 +118,7 @@
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@color/statusTextColors"
+                android:textColor="@color/main_color"
                 android:textSize="15sp"
                 tools:text="paroli" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -134,9 +134,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.50"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+            app:layout_constraintTop_toBottomOf="@+id/enterPasswordTExtInputLayout"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/statusTextColors">
+            app:passwordToggleTint="@color/main_color">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/repeatPasswordEditText"
@@ -145,7 +145,7 @@
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="#004481"
+                android:textColor="@color/main_color"
                 android:textSize="15sp"
                 tools:text="paroli" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -157,7 +157,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="20dp"
             android:text="@string/sign_in"
-            android:textColor="@color/statusTextColors"
+            android:textColor="@color/main_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/alreadyHaveAccount"
@@ -170,7 +170,7 @@
             android:layout_marginStart="2dp"
             android:layout_marginTop="20dp"
             android:text="@string/already_have_an_account"
-            android:textColor="@color/statusTextColors"
+            android:textColor="@color/main_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.414"
             app:layout_constraintStart_toStartOf="parent"
