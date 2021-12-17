@@ -8,9 +8,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".ui.loginfragment.LoginFragment"
-        android:background="@color/white"
-        >
+        tools:context=".ui.login.LoginFragment"
+        android:background="@color/white">
 
         <ImageView
             android:id="@+id/blueBackGround"
@@ -24,8 +23,8 @@
 
         <ImageView
             android:id="@+id/logoImageView"
-            android:layout_width="106dp"
-            android:layout_height="114dp"
+            android:layout_width="135dp"
+            android:layout_height="134dp"
             android:layout_marginTop="30dp"
             android:src="@drawable/task"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="55dp"
             android:text="@string/welcome"
-            android:textColor="@color/main_color"
+            android:textColor="@color/statusTextColors"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +57,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/welcomeTextView">
-
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/emailEditText"
                 android:layout_width="match_parent"
@@ -66,7 +64,7 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@color/main_color"
+                android:textColor="@color/statusTextColors"
                 android:textSize="15sp"
                 tools:text="Aleksandre.galogrebaramidze@space.ge" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -86,7 +84,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/enterEmailTextInputLayout"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/main_color">
+            app:passwordToggleTint="@color/statusTextColors">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/passwordEditText"
@@ -95,7 +93,7 @@
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true"
-                android:textColor="@color/main_color"
+                android:textColor="@color/statusTextColors"
                 android:textSize="15sp"
                 tools:text="paroli" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -107,7 +105,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="20dp"
             android:text="@string/sign_in"
-            android:textColor="@color/main_color"
+            android:textColor="@color/statusTextColors"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/dontHaveAccountTextView"
@@ -120,7 +118,7 @@
             android:layout_marginStart="2dp"
             android:layout_marginTop="20dp"
             android:text="@string/don_t_have_an_account"
-            android:textColor="@color/main_color"
+            android:textColor="@color/statusTextColors"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.414"
             app:layout_constraintStart_toStartOf="parent"
@@ -136,10 +134,23 @@
             android:background="@drawable/auth_button"
             android:text="@string/log_in"
             android:textAllCaps="false"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dontHaveAccountTextView" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

@@ -42,4 +42,5 @@ abstract class BaseFragment<T : ViewBinding, V : ViewModel> : Fragment() {
 
     abstract fun initFragment(viewModel: V)
 
+
 }

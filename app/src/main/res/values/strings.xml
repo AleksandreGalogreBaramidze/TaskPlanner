@@ -4,9 +4,9 @@
     <string name="current_tasks">Current Tasks</string>
     <string name="to_do">To Do</string>
     <string name="work_in_progress">Work in Progress</string>
-    <string name="_5">5</string>
-    <string name="_3">3</string>
-    <string name="_1">1</string>
+    <string name="_5">0</string>
+    <string name="_3">0</string>
+    <string name="_1">0</string>
     <string name="my_projects">My Projects</string>
     <string name="plus">+</string>
     <string name="log_in">Log In</string>
@@ -19,4 +19,24 @@
     <string name="repeat_password">Repeat Password</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="sign_up">Sign Up</string>
+    <string name="fill_error">გთხოვთ შეავსოთ ყველა ველი და დაამატეთ ფოტო</string>
+    <string name="password_error">შეყვანილი პაროლები არ ემთხვევა ერთმანეთს</string>
+    <string name="add_your_profile_picture">add your profile picture</string>
+    <string name="create_project">Create Project</string>
+    <string name="create_new_project">Create New Project</string>
+    <string name="project_description">Project Description</string>
+    <string name="enter_project_name">Enter Project Name</string>
+    <string name="unemployed">unemployed</string>
+    <string name="enter_your_job">enter Your Job</string>
+    <string name="create_sub_task">create Sub Task</string>
+    <string name="enter_sub_task_name">Enter Sub Task Name</string>
+    <string name="update">Update</string>
+    <string name="error_message">ამოუცნობი შეცდომა</string>
+    <string name="start_date">start Date:</string>
+    <string name="subtasks">subtasks</string>
+    <string name="end_date">end Date:</string>
+    <string name="in_progress">In Progress</string>
+    <string name="task_planner">Task Planner</string>
+    <string name="date_picker_error">დაწტყების დრო დამთავრების დროზე მეტია</string>
+
 </resources>
