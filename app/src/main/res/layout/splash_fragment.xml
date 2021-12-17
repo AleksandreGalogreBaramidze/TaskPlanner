@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.splashfragment.SplashFragment">
+    tools:context=".ui.splash.SplashFragment">
 
 
     <ImageView
-        android:id="@+id/splashScreenBackGroundImageView"
+        android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:src="@drawable/splash_back_ground"
@@ -18,11 +18,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/splashLogoImageView"
+        android:id="@+id/imageView2"
         android:layout_width="216dp"
         android:layout_height="247dp"
         android:src="@drawable/task"
-        app:layout_constraintBottom_toBottomOf="@+id/splashScreenBackGroundImageView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
